@@ -34,8 +34,8 @@ This project was a challenge of Frontend Mentor website called "3-column preview
 git add -A
 git commit -m <tittle> <message>
 git push <remote> <branch>
-git subtree push --prefix src/ <remote> gh-pages
-git push <remote> `git subtree split --prefix src/ <branch>`:gh-pages --force
+git subtree push --prefix <directory> <remote> gh-pages
+git push <remote> `git subtree split --prefix <directory> <branch>`:gh-pages --force
 ```
 
 <!-- MARKDOWN LINKS & IMAGES -->
